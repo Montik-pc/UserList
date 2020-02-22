@@ -1,0 +1,64 @@
+.container {
+  position: relative;
+  min-width: 768px;
+}
+
+.message-pop-up {
+  margin: 0;
+  padding: 6px;
+}
+
+.modal-pop-up {
+  width: 70%;
+  height: 10%;
+  font-size: 14px;
+  text-align: left;
+  margin: 5px 15px;
+  padding: 4px 0 2px 10px;
+  background: rgb(250, 190, 200);
+  border-radius: 6px;
+}
+
+select.form-control {
+  padding-left: 8px;
+}
+
+.icon-add-user {
+  margin-right: 7px;
+}
+
+table {
+  table-layout: fixed;
+}
+
+.table-user-name,
+.table-user-country {
+  width: 34%;
+  max-width: 34%;
+  table-layout: fixed;
+}
+
+.table-user-gender,
+.table-user-age,
+.table-user-free {
+  width: 8%;
+  max-width: 8%;
+}
+
+.table-user-name-date {
+  width: 34%;
+  max-width: 34%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#modal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+}
